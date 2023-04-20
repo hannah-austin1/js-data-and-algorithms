@@ -2,5 +2,10 @@
   "name": "js-algorithms",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "bubble-sort": "node sorting/bubble-sort.js",
+    "selection-sort": "node sorting/selection-sort.js"
+  }
 }
