@@ -29,6 +29,7 @@ console.log("standard bubble sort: ", bubbleSort([8, 1, 2, 3, 4, 5, 6, 7]));
 // To optimise check if any swaps were made on the latest iteration
 
 const bubbleSortOptimised = (arr) => {
+  console.log("initial array to sort: ", arr);
   let noSwaps;
   for (let i = arr.length; i > 0; i--) {
     noSwaps = true;

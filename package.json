@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "bubble-sort": "node sorting/bubble-sort.js",
-    "selection-sort": "node sorting/selection-sort.js"
+    "selection-sort": "node sorting/selection-sort.js",
+    "insertion-sort": "node sorting/insertion-sort.js"
   }
 }
