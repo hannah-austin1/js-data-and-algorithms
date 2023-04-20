@@ -28,3 +28,5 @@
 ### Time Complexity
 
 - O(n^2)
+- Better than bubble sort if you want to minimise number of swaps, only one swap is made at end of each loop
+- This is better in terms of saving memory
