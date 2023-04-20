@@ -31,7 +31,6 @@ console.log("standard bubble sort: ", bubbleSort([8, 1, 2, 3, 4, 5, 6, 7]));
 const bubbleSortOptimised = (arr) => {
   let noSwaps;
   for (let i = arr.length; i > 0; i--) {
-    console.log(`Optimised bubble sort runs`, arr);
     noSwaps = true;
     for (let j = 0; j < i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
@@ -40,11 +39,9 @@ const bubbleSortOptimised = (arr) => {
       }
     }
     if (noSwaps) break;
+    console.log(`Optimised bubble sort runs`, arr);
   }
   return arr;
 };
 
-console.log(
-  "optimised bubble sort: ",
-  bubbleSortOptimised([8, 1, 2, 3, 4, 5, 6, 7])
-);
+console.log("optimised bubble sort: ", bubbleSortOptimised([5, 3, 4, 1, 2]));
