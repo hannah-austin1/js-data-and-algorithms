@@ -1,5 +1,5 @@
 // similar to bubble sort, however smallest values bubble to bottom
-import { swapEs2015 } from "./swap.js";
+import { swapEs2015 } from "../swap.js";
 
 const selectionSort = (arr) => {
   console.log("initial array to sort: ", arr);

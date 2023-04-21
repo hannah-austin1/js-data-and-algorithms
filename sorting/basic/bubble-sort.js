@@ -3,7 +3,7 @@
 // repeatedly steps through the input list element by element,
 // comparing the current element with the one after it,
 // swapping their values if needed
-import { swapEs2015 } from "./swap.js";
+import { swapEs2015 } from "../swap.js";
 
 // start looping with variable called i from end to beginning
 // start inner loop with var called j starting from beginning until i-1

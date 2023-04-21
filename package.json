@@ -5,8 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "bubble-sort": "node sorting/bubble-sort.js",
-    "selection-sort": "node sorting/selection-sort.js",
-    "insertion-sort": "node sorting/insertion-sort.js"
+    "bubble-sort": "node sorting/basic/bubble-sort.js",
+    "selection-sort": "node sorting/basic/selection-sort.js",
+    "insertion-sort": "node sorting/basic/insertion-sort.js",
+    "merge-sort": "node sorting/intermediate/merge-sort.js",
+    "quick-sort": "node sorting/intermediate/quick-sort.js"
   }
 }

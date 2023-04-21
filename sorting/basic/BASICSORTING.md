@@ -1,4 +1,4 @@
-# Sorting Algorithms
+# Sorting Algorithms - Basic
 
 ### Links
 
