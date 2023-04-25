@@ -1,4 +1,4 @@
-import { getDigit, digitCount, mostDigits } from "./radix-helpers.js";
+import { getDigit, mostDigits } from "./radix-helpers.js";
 
 const radixSort = (nums) => {
   const maxDigitCount = mostDigits(nums);
